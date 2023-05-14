@@ -1,0 +1,19 @@
+mc-para:
+  risk-free-rate: 0.03
+  time-period: 2
+  simulations: 100000
+  day-numbers: 240 * 2
+  dividend-yield: 0.015 + 0.06
+
+basic-para:
+  knock-in: 0.75
+  knock-out: 1.03
+  coupon-rate: 0.2
+  dividend: 0.2
+  period-number: 20
+  lock-period: 2
+  buy-cost: 0.0005
+  sell-cost: 0.0009
+  init-net-value: 100000000
+  capital-cost-rate: 0.05
+  trade-cost-rate: 0.00015
